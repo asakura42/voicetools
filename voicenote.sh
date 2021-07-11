@@ -1,6 +1,8 @@
 #!/bin/sh
+
 BASEDIR=$(dirname "$0")
 source $BASEDIR/config
+
 if [ $fj ] ; then
   fj="firejail --quiet --net=none"
 fi
