@@ -1,10 +1,9 @@
 #!/bin/sh
-unset fj
-fj=1
+BASEDIR=$(dirname "$0")
+source $BASEDIR/config
 if [ $fj ] ; then
   fj="firejail --quiet --net=none"
 fi
-BASEDIR=$(dirname "$0")
 echo "Say and press Ctrl+C"
 rm /tmp/vosk_out.txt 2>/dev/null
 rm /tmp/vosk_out.wav 2>/dev/null
