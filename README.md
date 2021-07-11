@@ -1,4 +1,7 @@
-# todo.wav
+# voicetools
+
+## voicetask.sh 
+
 voice to todo.txt (proof of concept)
 
 ```
