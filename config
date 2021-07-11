@@ -1,2 +1,1 @@
-unset fj
-fj=yes
+fj="firejail --quiet --net=none"
