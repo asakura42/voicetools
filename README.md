@@ -10,3 +10,5 @@ unzip vosk-model-small-en-us-0.15.zip
 mv vosk-model-small-en-us-0.15 model
 sh voicetask.sh
 ```
+
+TODO: rewrite all in ~~posix shell~~ python/golang
